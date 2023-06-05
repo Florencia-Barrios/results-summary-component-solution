@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1.15em;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  height: 400px;
+  width: 600px;
+  box-shadow: 2px 15px 15px hsl(234, 85%, 45%, 0.2);
+}
+.violeta {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  width: 50%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px;
+}
+
+.titulo h1 {
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.15em;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
+.circulo .c76 {
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+.circulo .of100 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  text-align: center;
+  opacity: 0.5;
+  font-weight: none;
+}
+
+.circulo {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  height: 160px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 80px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.great h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.texto p {
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: -40px;
+  opacity: 0.8;
+}
+
+.blanco {
+  background-color: white;
+  width: 50%;
+  border-radius: 20px;
+  padding: 30px;
+}
+/* --------prueba--------- */
+.rosita {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  border-radius: 8px;
+  height: 4.5vh;
+  width: 30vh;
+  margin-bottom: 15px;
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.parte1 {
+  display: flex;
+  color: hsl(0, 100%, 67%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+.parte1 img {
+  margin-right: 10px;
+}
+.parte2 p span {
+  color: gray;
+  opacity: 0.7;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* --------fin prueba--------- */
+.titulo2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+
+.continue_boton {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  height: 5.5vh;
+  width: 103%;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.continue_boton:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 0.8),
+    hsla(241, 72%, 46%, 1)
+  );
+}
+
+.rosita {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  border-radius: 8px;
+  height: 4.5vh;
+  width: 103%;
+  margin-bottom: 15px;
+  display: flex;
+  text-align: start;
+}
+
+/*               Amarillito                */
+
+.amarillo {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  border-radius: 8px;
+  height: 4.5vh;
+  width: 103%;
+  margin-bottom: 15px;
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+.texto3 img {
+  margin-right: 10px;
+}
+
+.texto3 {
+  display: flex;
+  color: hsl(39, 100%, 56%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/*             FIN Amarillito                */
+
+/*               Verdecito                */
+
+.verde {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  border-radius: 8px;
+  height: 4.5vh;
+  width: 103%;
+  margin-bottom: 15px;
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.texto4 {
+  display: flex;
+  color: hsl(166, 100%, 37%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.texto4 img {
+  margin-right: 10px;
+}
+
+/*              FIN Verdecito                */
+
+/*               azulito                */
+.azul {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  border-radius: 8px;
+  height: 4.5vh;
+  width: 103%;
+  margin-bottom: 15px;
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.texto5 {
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: hsl(234, 85%, 45%);
+}
+
+.texto5 img {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: none;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .violeta {
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .texto p {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .blanco {
+    width: 100%;
+    padding-right: 3rem;
+    padding-left: 2rem;
+  }
+  .continue_boton {
+    margin-top: 2rem;
+  }
+}
