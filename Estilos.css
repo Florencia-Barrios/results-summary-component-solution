@@ -111,6 +111,7 @@ h1 {
   background-color: hsl(0, 100%, 67%, 0.1);
   border-radius: 8px;
   height: 4.5vh;
+  max-height: 40px;
   width: 30vh;
   margin-bottom: 15px;
   display: flex;
@@ -156,6 +157,7 @@ h1 {
   font-size: 17px;
   font-weight: 700;
   height: 5.5vh;
+  max-height: 50px;
   width: 103%;
   display: flex;
   justify-content: center;
@@ -188,6 +190,7 @@ h1 {
   background-color: hsl(39, 100%, 56%, 0.1);
   border-radius: 8px;
   height: 4.5vh;
+  max-height: 40px;
   width: 103%;
   margin-bottom: 15px;
   display: flex;
@@ -217,6 +220,7 @@ h1 {
   background-color: hsl(166, 100%, 37%, 0.1);
   border-radius: 8px;
   height: 4.5vh;
+  max-height: 40px;
   width: 103%;
   margin-bottom: 15px;
   display: flex;
@@ -246,6 +250,7 @@ h1 {
   background-color: hsl(234, 85%, 45%, 0.1);
   border-radius: 8px;
   height: 4.5vh;
+  max-height: 40px;
   width: 103%;
   margin-bottom: 15px;
   display: flex;
